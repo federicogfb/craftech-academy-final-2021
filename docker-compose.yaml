@@ -1,0 +1,31 @@
+version: "3.8"
+services:
+  app-backend:
+    build:
+      context: ./backend/
+      dockerfile: Dockerfile
+    ports:
+      - target: 8000
+        published: 8000
+        protocol: tcp
+        mode: host
+    restart: always
+    networks:
+      - mynet
+
+  app-frontend:
+    build:
+      context: ./frontend/
+      dockerfile: Dockerfile
+    ports:
+      - target: 3000
+        published: 3000
+        protocol: tcp
+        mode: host
+    restart: always
+    networks:
+      - mynet
+
+
+networks:
+  mynet:
