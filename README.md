@@ -17,3 +17,4 @@ Se necesita:
 1. Armar los manifiestos de Kubernetes para deployar las aplicaciones y sus dependencias en un cluster (Utilizar minikube como ref)
 
 1. Diseñar un pipeline de CI/CD de la aplicación frontend y backend que nos permita deployar en 2 entornos (dev y prod)# ci-dockerhub-cd-minikube
+# ci-dockerhub-cd-minikube
