@@ -10,6 +10,9 @@ jobs:
   docker:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        
       - name: Set up QEMU
         uses: docker/setup-qemu-action@v2
         
@@ -22,21 +25,20 @@ jobs:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
 
-      - name: Checkout
-        uses: actions/checkout@v2
-
       - name: Build and push Docker image 1
         uses: docker/build-push-action@v4
         with:
           push: true
-          file: ./backend/Dockerfile
+          context: ./backend/  # Relative path to the backend directory
+          dockerfile: Dockerfile  # Path to Dockerfile within the context
           tags: federicogfb/practica-ci-jenkins:image1
 
       - name: Build and push Docker image 2
         uses: docker/build-push-action@v4
         with:
           push: true
-          file: ./frontend/Dockerfile
+          context: ./frontend/  # Relative path to the backend directory
+          dockerfile: Dockerfile  # Path to Dockerfile within the context
           tags: federicogfb/practica-ci-jenkins:image2
   
   minikube:
