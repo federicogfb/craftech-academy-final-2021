@@ -26,16 +26,14 @@ jobs:
         uses: docker/build-push-action@v4
         with:
           push: true
-          context: ../../backend/  # Path to the directory with Dockerfile 1
-          dockerfile: Dockerfile  # Path to Dockerfile 1
+          file: ./backend/Dockerfile
           tags: federicogfb/practica-ci-jenkins:image1
 
       - name: Build and push Docker image 2
         uses: docker/build-push-action@v4
         with:
           push: true
-          context: ../../frontend/  # Path to the directory with Dockerfile 2
-          dockerfile: Dockerfile  # Path to Dockerfile 2
+          file: ./frontend/Dockerfile
           tags: federicogfb/practica-ci-jenkins:image2
   
   minikube:
