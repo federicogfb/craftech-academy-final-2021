@@ -26,7 +26,7 @@ jobs:
         uses: docker/build-push-action@v4
         with:
           push: true
-          context: ./backend  # Path to the directory with Dockerfile 1
+          context: ./backend/  # Path to the directory with Dockerfile 1
           dockerfile: Dockerfile  # Path to Dockerfile 1
           tags: federicogfb/practica-ci-jenkins:image1
 
@@ -34,7 +34,7 @@ jobs:
         uses: docker/build-push-action@v4
         with:
           push: true
-          context: ./frontend  # Path to the directory with Dockerfile 2
+          context: ./frontend/  # Path to the directory with Dockerfile 2
           dockerfile: Dockerfile  # Path to Dockerfile 2
           tags: federicogfb/practica-ci-jenkins:image2
   
