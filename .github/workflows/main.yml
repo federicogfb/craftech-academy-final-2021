@@ -67,3 +67,6 @@ jobs:
       run: |
         namespace="dev"
         kubectl apply -f ./deployment/ -n "$namespace"
+      env:  # Pass environment variables to the steps
+        MINIKUBE_IP: ${{ env.MINIKUBE_IP }}
+        MINIKUBE_PORT: ${{ env.MINIKUBE_PORT }}
