@@ -55,6 +55,8 @@ jobs:
       run: |
         echo "$KUBECONFIG" > kubeconfig.yaml
         export KUBECONFIG=$PWD/kubeconfig.yaml
+      env:
+        KUBECONFIG: ${{ secrets.KUBECONFIG }}
 
     - name: Deploy to Minikube -prod
       if: ${{ github.ref == 'refs/heads/main' }}
