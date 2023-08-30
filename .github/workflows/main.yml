@@ -62,6 +62,17 @@ jobs:
     - name: List Namespaces
       run: kubectl get namespaces
 
+    - name: Deploy to Kubernetes
+      run: |
+        if [[ "${{ github.ref }}" == "refs/heads/main" ]]; then
+            namespace="prod"
+        elif [[ "${{ github.ref }}" == "refs/heads/dev" ]]; then
+            namespace="dev"
+        else
+            namespace="default"
+        fi
+          kubectl apply -f ./deployment/ -n $namespace
+
 
   #   - name: Set up kubectl
   #     run: |
@@ -70,17 +81,19 @@ jobs:
   #     env:
   #       KUBECONFIG: ${{ secrets.KUBECONFIG }}
 
-    - name: Deploy to Minikube -prod
-      if: ${{ github.ref == 'refs/heads/main' }}
-      run: |
-          namespace="prod"
-          kubectl apply -f ./deployment/ -n $namespace
+    # - name: Deploy to Minikube -prod
+    #   if: ${{ github.ref == 'refs/heads/main' }}
+    #   run: |
+    #       namespace="prod"
+    #       kubectl apply -f ./deployment/ -n $namespace
 
-    - name: Deploy to Minikube -dev
-      if: ${{ github.ref == 'refs/heads/dev' }}
-      run: |
-          namespace="dev"
-          kubectl apply -f ./deployment/ -n $namespace
+    # - name: Deploy to Minikube -dev
+    #   if: ${{ github.ref == 'refs/heads/dev' }}
+    #   run: |
+    #       namespace="dev"
+    #       kubectl apply -f ./deployment/ -n $namespace
+
+          
   #     env:  # Pass environment variables to the steps
   #       MINIKUBE_IP: ${{ env.MINIKUBE_IP }}
   #       MINIKUBE_PORT: ${{ env.MINIKUBE_PORT }}
