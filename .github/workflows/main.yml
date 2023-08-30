@@ -53,12 +53,14 @@ jobs:
       with:
         kubeconfig: ${{ secrets.KUBECONFIG }}
 
-    - name: Deploy to Minikube
+    - name: Deploy to Minikube -prod
+      if: ${{ github.ref == 'refs/heads/main' }}
       run: |
-        if [[ "$GITHUB_REF" == "refs/heads/main" ]]; then
-          namespace="prod"
-        else [[ "$GITHUB_REF" == "refs/heads/dev" ]]; then
-          namespace="dev"
-        fi
+        namespace="prod"
+        kubectl apply -f ./deployment/ -n "$namespace"
 
+    - name: Deploy to Minikube -dev
+      if: ${{ github.ref == 'refs/heads/dev' }}
+      run: |
+        namespace="dev"
         kubectl apply -f ./deployment/ -n "$namespace"
