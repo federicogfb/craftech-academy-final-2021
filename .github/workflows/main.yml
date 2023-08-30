@@ -49,9 +49,9 @@ jobs:
       uses: actions/checkout@v2
 
     - name: Set up kubectl
-      uses: azure/setup-kubectl@v1
-      with:
-        kubeconfig: ${{ secrets.KUBECONFIG }}
+      run: |
+        echo "$KUBECONFIG" > kubeconfig.yaml
+        export KUBECONFIG=$PWD/kubeconfig.yaml
 
     - name: Deploy to Minikube -prod
       if: ${{ github.ref == 'refs/heads/main' }}
