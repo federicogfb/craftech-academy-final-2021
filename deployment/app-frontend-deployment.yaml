@@ -8,7 +8,7 @@ metadata:
   labels:
     io.kompose.service: app-frontend
   name: app-frontend
-  namespace: default
+  namespace: {{namespace}}
 spec:
   replicas: 1
   selector:
