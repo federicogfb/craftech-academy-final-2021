@@ -73,13 +73,13 @@ jobs:
     - name: Deploy to Minikube -prod
       if: ${{ github.ref == 'refs/heads/main' }}
       run: 
-          kubectl apply -f ./deployment/* -n prod
+          kubectl apply -f ./deployment/ -n prod
   #       namespace="prod"
 
     - name: Deploy to Minikube -dev
       if: ${{ github.ref == 'refs/heads/dev' }}
       run: 
-          kubectl apply -f ./deployment/* -n dev
+          kubectl apply -f ./deployment/ -n dev
  #       namespace="dev"
   #     env:  # Pass environment variables to the steps
   #       MINIKUBE_IP: ${{ env.MINIKUBE_IP }}
