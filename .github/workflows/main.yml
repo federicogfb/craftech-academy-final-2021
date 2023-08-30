@@ -54,11 +54,14 @@ jobs:
     - name: Start minikube
       uses: medyagh/setup-minikube@master
 
-    - name: Try the cluster and create ns
-      run: kubectl get pods -A
-          kubectl create namespace prod
-          kubectl create namespace dev
-          kubectl get ns
+    - name: Create Namespaces
+      run: |
+        kubectl create namespace prod
+        kubectl create namespace dev
+
+    - name: List Namespaces
+      run: kubectl get namespaces
+
 
   #   - name: Set up kubectl
   #     run: |
