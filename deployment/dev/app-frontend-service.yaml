@@ -8,7 +8,7 @@ metadata:
   labels:
     io.kompose.service: app-frontend
   name: app-frontend
-  namespace: {{namespace}}
+  namespace: dev
 spec:
   ports:
     - name: "3000"
