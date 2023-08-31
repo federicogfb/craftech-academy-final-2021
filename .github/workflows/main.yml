@@ -42,17 +42,17 @@ jobs:
           tags: federicogfb/practica-ci-jenkins:image2
   
   minikube:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     needs: docker
-  #   env:  # Define environment variables
-  #     MINIKUBE_IP: "192.168.49.2"
-  #     MINIKUBE_PORT: "8443"
+    env:  # Define environment variables
+      MINIKUBE_IP: "192.168.49.2"
+      MINIKUBE_PORT: "8443"
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
     
-    - name: Start minikube
-      uses: medyagh/setup-minikube@master
+    # - name: Start minikube
+    #   uses: medyagh/setup-minikube@master
 
     - name: Create Namespaces
       run: |
@@ -74,14 +74,14 @@ jobs:
     #       kubectl apply -f ./deployment/$namespace -n $namespace
 
 
-  #   - name: Set up kubectl
-  #     run: |
-  #       echo "$KUBECONFIG" > kubeconfig.yaml
-  #       export KUBECONFIG=$PWD/kubeconfig.yaml
-  #     env:
-  #       KUBECONFIG: ${{ secrets.KUBECONFIG }}
+    - name: Set up kubectl
+      run: |
+        echo "$KUBECONFIG" > kubeconfig.yaml
+        export KUBECONFIG=$PWD/kubeconfig.yaml
+      env:
+        KUBECONFIG: ${{ secrets.KUBECONFIG }}
 
-    - name: Deploy to Minikube -prod
+    - name: Deploy to Minikube -prod               ##########
       if: ${{ github.ref == 'refs/heads/main' }}
       run:
           kubectl apply -f ./deployment/prod/ -n prod
@@ -89,9 +89,9 @@ jobs:
     - name: Deploy to Minikube -dev
       if: ${{ github.ref == 'refs/heads/dev' }}
       run:
-          kubectl apply -f ./deployment/dev/ -n dev
+          kubectl apply -f ./deployment/dev/ -n dev  ########
 
           
-  #     env:  # Pass environment variables to the steps
-  #       MINIKUBE_IP: ${{ env.MINIKUBE_IP }}
-  #       MINIKUBE_PORT: ${{ env.MINIKUBE_PORT }}
+      env:  # Pass environment variables to the steps
+        MINIKUBE_IP: ${{ env.MINIKUBE_IP }}
+        MINIKUBE_PORT: ${{ env.MINIKUBE_PORT }}
