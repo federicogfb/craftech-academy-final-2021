@@ -56,8 +56,7 @@ jobs:
 
     - name: Create Namespaces
       run: |
-        kubectl create namespace prod
-        kubectl create namespace dev
+        kubectl create namespace prod || kubectl create namespace dev || kubectl get ns
 
     - name: List Namespaces
       run: kubectl get namespaces
