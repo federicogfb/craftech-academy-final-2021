@@ -1,0 +1,181 @@
+<mxfile host="app.diagrams.net" modified="2023-09-15T23:35:31.459Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0" etag="1JFOmK8sarE8nTqcG588" version="21.7.5" type="github">
+  <diagram name="Page-1" id="Gw-lzmFoAh1uQWyieuBi">
+    <mxGraphModel dx="704" dy="357" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="FG_kmjsE-A-tG6wg_vwJ-4" value="DEV" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="48" width="40" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="FG_kmjsE-A-tG6wg_vwJ-11" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="138" as="sourcePoint" />
+            <mxPoint x="160" y="248" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="60" y="248" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FG_kmjsE-A-tG6wg_vwJ-16" value="Github" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="218" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FG_kmjsE-A-tG6wg_vwJ-17" value="Git Push" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="218" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FG_kmjsE-A-tG6wg_vwJ-19" value="" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="218" width="840" height="302" as="geometry" />
+        </mxCell>
+        <mxCell id="FG_kmjsE-A-tG6wg_vwJ-20" value="&lt;div&gt;Github Actions&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="188" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FG_kmjsE-A-tG6wg_vwJ-21" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="247.05" as="sourcePoint" />
+            <mxPoint x="360" y="247.05" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FG_kmjsE-A-tG6wg_vwJ-22" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="FG_kmjsE-A-tG6wg_vwJ-19" target="FG_kmjsE-A-tG6wg_vwJ-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="370" as="sourcePoint" />
+            <mxPoint x="530" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FG_kmjsE-A-tG6wg_vwJ-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FG_kmjsE-A-tG6wg_vwJ-23" target="FG_kmjsE-A-tG6wg_vwJ-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FG_kmjsE-A-tG6wg_vwJ-23" value="&lt;div&gt;runner &lt;br&gt;&lt;/div&gt;&lt;div&gt;Ubuntu&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="390" y="260" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FG_kmjsE-A-tG6wg_vwJ-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FG_kmjsE-A-tG6wg_vwJ-24" target="FG_kmjsE-A-tG6wg_vwJ-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FG_kmjsE-A-tG6wg_vwJ-24" value="&lt;p style=&quot;line-height: 100%;&quot;&gt;Checkout code&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;line-height: 100%;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;" style="whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="455" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FG_kmjsE-A-tG6wg_vwJ-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FG_kmjsE-A-tG6wg_vwJ-28" target="FG_kmjsE-A-tG6wg_vwJ-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FG_kmjsE-A-tG6wg_vwJ-28" value="&lt;p style=&quot;line-height: 100%;&quot;&gt;Set up Docker&lt;br&gt;&lt;/p&gt;" style="whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="655" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FG_kmjsE-A-tG6wg_vwJ-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FG_kmjsE-A-tG6wg_vwJ-30" target="FG_kmjsE-A-tG6wg_vwJ-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FG_kmjsE-A-tG6wg_vwJ-30" value="&lt;p style=&quot;line-height: 100%;&quot;&gt;Log into DockerHub&lt;/p&gt;" style="whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="855" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FG_kmjsE-A-tG6wg_vwJ-32" value="&lt;div&gt;Build backend and frontend&amp;nbsp;&lt;/div&gt;&lt;div&gt;Dockerfiles&lt;/div&gt;" style="whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1055" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FG_kmjsE-A-tG6wg_vwJ-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FG_kmjsE-A-tG6wg_vwJ-37" target="FG_kmjsE-A-tG6wg_vwJ-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FG_kmjsE-A-tG6wg_vwJ-37" value="&lt;div&gt;self hosted&lt;/div&gt;&lt;div&gt;runner&lt;br&gt;&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="390" y="410" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FG_kmjsE-A-tG6wg_vwJ-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FG_kmjsE-A-tG6wg_vwJ-39" target="FG_kmjsE-A-tG6wg_vwJ-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FG_kmjsE-A-tG6wg_vwJ-39" value="&lt;p style=&quot;line-height: 100%;&quot;&gt;Checkout repo&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;line-height: 100%;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;" style="whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="455" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FG_kmjsE-A-tG6wg_vwJ-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FG_kmjsE-A-tG6wg_vwJ-41" target="FG_kmjsE-A-tG6wg_vwJ-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FG_kmjsE-A-tG6wg_vwJ-41" value="&lt;p style=&quot;line-height: 100%;&quot;&gt;Set up Minikube Namespaces&lt;br&gt;&lt;/p&gt;" style="whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="655" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FG_kmjsE-A-tG6wg_vwJ-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FG_kmjsE-A-tG6wg_vwJ-43" target="FG_kmjsE-A-tG6wg_vwJ-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FG_kmjsE-A-tG6wg_vwJ-43" value="&lt;p style=&quot;line-height: 110%;&quot;&gt;List Namesapces&lt;br&gt;&lt;/p&gt;" style="whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="855" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FG_kmjsE-A-tG6wg_vwJ-45" value="&lt;p style=&quot;line-height: 100%;&quot;&gt;Deploy into Minikube&lt;br&gt;&lt;/p&gt;" style="whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1055" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FG_kmjsE-A-tG6wg_vwJ-55" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="840" y="600" width="560" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="FG_kmjsE-A-tG6wg_vwJ-57" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" target="FG_kmjsE-A-tG6wg_vwJ-55">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1118" y="470" as="sourcePoint" />
+            <mxPoint x="1118" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FG_kmjsE-A-tG6wg_vwJ-58" value="Minikube" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="920" y="580" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FG_kmjsE-A-tG6wg_vwJ-60" value="" style="rounded=1;whiteSpace=wrap;html=1;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="850" y="680" width="160" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="FG_kmjsE-A-tG6wg_vwJ-61" value="" style="rounded=1;whiteSpace=wrap;html=1;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="680" width="160" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="FG_kmjsE-A-tG6wg_vwJ-62" value="NS prod" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="900" y="660" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FG_kmjsE-A-tG6wg_vwJ-63" value="NS dev" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="660" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FG_kmjsE-A-tG6wg_vwJ-64" value="&lt;div&gt;IF branch&lt;/div&gt;&lt;div&gt;=&lt;/div&gt;&lt;div&gt;main&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;direction=south;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="670" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FG_kmjsE-A-tG6wg_vwJ-65" value="&lt;div&gt;ELSE branch&lt;/div&gt;&lt;div&gt;=&lt;/div&gt;&lt;div&gt;dev&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;direction=south;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="770" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FG_kmjsE-A-tG6wg_vwJ-66" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1119" y="600" as="sourcePoint" />
+            <mxPoint x="1119" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FG_kmjsE-A-tG6wg_vwJ-67" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1090" y="720" as="sourcePoint" />
+            <mxPoint x="1010" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FG_kmjsE-A-tG6wg_vwJ-68" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="FG_kmjsE-A-tG6wg_vwJ-64" target="FG_kmjsE-A-tG6wg_vwJ-65">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1030" y="700" as="sourcePoint" />
+            <mxPoint x="1080" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FG_kmjsE-A-tG6wg_vwJ-69" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.684;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="FG_kmjsE-A-tG6wg_vwJ-65" target="FG_kmjsE-A-tG6wg_vwJ-61">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1030" y="730" as="sourcePoint" />
+            <mxPoint x="1080" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FG_kmjsE-A-tG6wg_vwJ-70" value="&lt;div&gt;Apply Kubernetes&lt;/div&gt;&lt;div&gt;manifests&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="870" y="745" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FG_kmjsE-A-tG6wg_vwJ-71" value="&lt;div&gt;Apply Kubernetes&lt;/div&gt;&lt;div&gt;manifests&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="745" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FG_kmjsE-A-tG6wg_vwJ-72" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="FG_kmjsE-A-tG6wg_vwJ-32">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1270" y="380" as="sourcePoint" />
+            <mxPoint x="1320" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FG_kmjsE-A-tG6wg_vwJ-73" value="" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="218" width="320" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="FG_kmjsE-A-tG6wg_vwJ-74" value="&lt;div&gt;Dockerhub&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="198" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FG_kmjsE-A-tG6wg_vwJ-75" value="Push" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="260" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FG_kmjsE-A-tG6wg_vwJ-76" value="&lt;div&gt;backend Docker Image&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FG_kmjsE-A-tG6wg_vwJ-77" value="&lt;div&gt;frontend Docker Image&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1490" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
