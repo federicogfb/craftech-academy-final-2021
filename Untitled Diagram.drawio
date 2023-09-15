@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-15T23:27:04.574Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0" etag="AcsIoC5Hd1fDNmVuxoND" version="21.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-15T23:30:07.732Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0" etag="2qSkeSY2OIkKgza6Nkzu" version="21.7.5" type="github">
   <diagram name="Page-1" id="Gw-lzmFoAh1uQWyieuBi">
     <mxGraphModel dx="838" dy="425" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -22,8 +22,8 @@
         <mxCell id="FG_kmjsE-A-tG6wg_vwJ-17" value="Git Push" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="80" y="218" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="FG_kmjsE-A-tG6wg_vwJ-19" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
-          <mxGeometry x="360" y="218" width="1040" height="302" as="geometry" />
+        <mxCell id="FG_kmjsE-A-tG6wg_vwJ-19" value="" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="218" width="840" height="302" as="geometry" />
         </mxCell>
         <mxCell id="FG_kmjsE-A-tG6wg_vwJ-20" value="&lt;div&gt;Github Actions&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="360" y="188" width="60" height="30" as="geometry" />
@@ -64,14 +64,8 @@
         <mxCell id="FG_kmjsE-A-tG6wg_vwJ-30" value="&lt;p style=&quot;line-height: 100%;&quot;&gt;Log into DockerHub&lt;/p&gt;" style="whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="855" y="260" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="FG_kmjsE-A-tG6wg_vwJ-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FG_kmjsE-A-tG6wg_vwJ-32" target="FG_kmjsE-A-tG6wg_vwJ-34">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="FG_kmjsE-A-tG6wg_vwJ-32" value="Build backend Dockerfile and push into Dockerhub" style="whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="FG_kmjsE-A-tG6wg_vwJ-32" value="&lt;div&gt;Build backend and frontend&amp;nbsp;&lt;/div&gt;&lt;div&gt;Dckerfiles&lt;/div&gt;" style="whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="1055" y="260" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="FG_kmjsE-A-tG6wg_vwJ-34" value="Build frontend Dockerfile and push into Dockerhub" style="whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="1255" y="260" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FG_kmjsE-A-tG6wg_vwJ-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FG_kmjsE-A-tG6wg_vwJ-37" target="FG_kmjsE-A-tG6wg_vwJ-39">
           <mxGeometry relative="1" as="geometry" />
