@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-09-15T23:30:07.732Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0" etag="2qSkeSY2OIkKgza6Nkzu" version="21.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-15T23:34:50.125Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0" etag="BPXdzRMayonLuazoQQ6U" version="21.7.5" type="github">
   <diagram name="Page-1" id="Gw-lzmFoAh1uQWyieuBi">
-    <mxGraphModel dx="838" dy="425" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="704" dy="357" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -64,7 +64,7 @@
         <mxCell id="FG_kmjsE-A-tG6wg_vwJ-30" value="&lt;p style=&quot;line-height: 100%;&quot;&gt;Log into DockerHub&lt;/p&gt;" style="whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="855" y="260" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="FG_kmjsE-A-tG6wg_vwJ-32" value="&lt;div&gt;Build backend and frontend&amp;nbsp;&lt;/div&gt;&lt;div&gt;Dckerfiles&lt;/div&gt;" style="whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="FG_kmjsE-A-tG6wg_vwJ-32" value="&lt;div&gt;Build backend and frontend&amp;nbsp;&lt;/div&gt;&lt;div&gt;Dockerfiles&lt;/div&gt;" style="whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="1055" y="260" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FG_kmjsE-A-tG6wg_vwJ-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FG_kmjsE-A-tG6wg_vwJ-37" target="FG_kmjsE-A-tG6wg_vwJ-39">
@@ -153,6 +153,27 @@
         </mxCell>
         <mxCell id="FG_kmjsE-A-tG6wg_vwJ-71" value="&lt;div&gt;Apply Kubernetes&lt;/div&gt;&lt;div&gt;manifests&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1250" y="745" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FG_kmjsE-A-tG6wg_vwJ-72" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="FG_kmjsE-A-tG6wg_vwJ-32">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1270" y="380" as="sourcePoint" />
+            <mxPoint x="1320" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FG_kmjsE-A-tG6wg_vwJ-73" value="" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="218" width="320" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="FG_kmjsE-A-tG6wg_vwJ-74" value="&lt;div&gt;Dockerhub&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="198" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FG_kmjsE-A-tG6wg_vwJ-75" value="Push" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="260" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FG_kmjsE-A-tG6wg_vwJ-76" value="&lt;div&gt;backend Docker Image&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FG_kmjsE-A-tG6wg_vwJ-77" value="&lt;div&gt;frontend Docker Image&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1490" y="260" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
